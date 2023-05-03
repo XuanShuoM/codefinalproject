@@ -19,6 +19,32 @@ h3 {
     margin-top: 2rem;
 }
 
+.app-menu {
+    margin-top: 2.5em;
+    text-align: center;
+  }
+  
+  .app-menu a {
+    color: #f04500;
+    padding: 0.35em;
+    background-color: #500060;
+    border-radius: 2em;
+    text-decoration: none;
+  }
+  
+  .app-menu a:hover {
+    background-color: #f04500;
+    color: #500060;
+  }
+  
+  .app-menu-nav {
+    margin-top: 1.25em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3em;
+  }
+  
 /* MENU STUFF */
 
 @media (max-width: 55rem) {
@@ -172,39 +198,39 @@ h1 {
     color: salmon;
   }
 
-/* Bouncing tennis ball img */
+/* Waving Earth */
 
-#ball {
+#earth {
     position: absolute;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 20px;
     height: 20px;
-    animation: move-n-grow 2s forwards infinite;
+    animation: move-n-grow 5s forwards infinite;
 }
 @keyframes move-n-grow {
     0% {
         left: 0; 
-        transform: translate(80%, -100%);
+        transform: translate(0, -100%);
     }
 
     25% {
         left: 50%;
-        transform: translate(0, 100%) rotate(360deg);
+        transform: translate(0, 0);
     }
 
     50% {
         left: 100%;
-        transform: translate(-180%, -100%);
+        transform: translate(-200%, -100%);
     }
     
     75% {
         left: 50%;
-        transform: translate(0, 100%) rotate(-360deg);
+        transform: translate(0, 0);
     }
 
     100% {
         left: 0;
-        transform: translate(80%, -100%);
+        transform: translate(0, -100%);
     }
 }
 
