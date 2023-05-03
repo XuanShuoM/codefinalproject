@@ -12,7 +12,11 @@ html {
 }
 
 body {
-    background-image: url(image/bg.jpg);
+    background-image: url(../image/bg.jpg);
+}
+
+h3 {
+    margin-top: 2rem;
 }
 
 /* MENU STUFF */
@@ -200,26 +204,13 @@ p {
     line-height: 1.5;
 }
 
-ul {
-    padding: 1rem;
-}
-
-.castlist {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-@media (max-width: 700px) {
-
-    .castlist {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-
-
+.highlight {
+    background-color: #7df;
+    padding: 0.75em;
+    border-left: 0.7em solid #38a;
+    border-radius: 0.7em;
+    margin: 0;
+  }
 
 .back-to-top {
     text-decoration: none;
