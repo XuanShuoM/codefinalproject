@@ -134,17 +134,13 @@ main {
 
 h1 {
     margin-top: 2rem;
-    color: #bcfa00;
+    color: #0353c3;
     text-align: center;
     font-family: 'Bruno Ace SC', cursive;
 }
 
 .byline {
     font-size: 1.2rem;
-}
-
-#pagelink {
-    color:#bcfa00;
 }
 
 .slide {
