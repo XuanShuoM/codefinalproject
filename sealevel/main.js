@@ -5,7 +5,7 @@ $('#menu-toggle').click(function(){
   
   $(window).resize(function() {
     
-    if(window.innerWidth > 700) {
+    if(window.innerWidth > 880) {
   
       $('#menu').show();
     } else {
